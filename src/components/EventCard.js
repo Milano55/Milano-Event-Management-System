@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Clock, MapPin, Edit, Trash2, Users } from 'lucide-react';
+import { Calendar, MapPin, Edit, Trash2, Users } from 'lucide-react';
 import { formatDate, isPastEvent } from '../utils/dateUtils';
 
 const EventCard = ({ event, onEdit, onDelete }) => {

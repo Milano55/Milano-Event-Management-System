@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Eye, CalendarDays, Plus } from 'lucide-react';
+import { Calendar, Plus } from 'lucide-react';
 
 const Header = ({ viewMode, onViewModeChange, onShowAddForm }) => {
   return (

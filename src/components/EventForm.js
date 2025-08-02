@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { TextField, Button, Box, FormControl,
+import { TextField, Button, FormControl,
   InputLabel,
   Select,
-  MenuItem,
-  Typography, } from '@mui/material';
+  MenuItem, } from '@mui/material';
 
 const EventForm = ({ editingEvent, events, onAddEvent, onUpdateEvent, onCancel }) => {
   const [formData, setFormData] = useState({
